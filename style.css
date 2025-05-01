@@ -1,0 +1,107 @@
+:root {
+  --shadow: rgba(3, 46 87, 0.2);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  background: #030303;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #123458;
+  border-radius: 5px;
+  border: none;
+  width: 90vw;
+  max-width: 28em;
+  color: white;
+}
+
+#para {
+  font-size: 30px;
+  padding: 10px;
+  color: #f1efec;
+}
+
+input,
+button {
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  text-align: center;
+  font-size: 19px;
+  height: 2rem;
+  background: #d4c9be;
+}
+
+input,
+button:first-letter {
+  text-transform: capitalize;
+}
+
+#data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+}
+
+#data h3 {
+  padding: 0.5rem;
+}
+
+#data h1 {
+  font-size: 2.69rem;
+}
+
+span {
+  padding: 0.17rem;
+}
+
+#result img {
+  margin: 0.6em 0 0 0;
+  width: 6.2em;
+  filter: drop-shadow(0 1.8em 3.7em var(--shadow));
+}
+
+.temp-container {
+  display: flex;
+  justify-content: center;
+  /* margin: 1.2rem;
+  padding: 20px; */
+}
+
+.temp-container div {
+  padding: 0.3em 1em;
+}
+
+.temp-container div:first-child {
+  border-right: 1px solid #d4c9be;
+}
+
+.temp-container .title {
+  padding: 4px;
+}
+
+.feel_like {
+  padding: 4px;
+}
+
+.temp {
+  color: #d4c9be;
+}
